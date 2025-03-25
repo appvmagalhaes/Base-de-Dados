@@ -27,6 +27,7 @@ namespace BaseDados
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Olá, Bem-vindo ao nosso programa", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
             carregaDados();
         }
         private void carregaDados()
