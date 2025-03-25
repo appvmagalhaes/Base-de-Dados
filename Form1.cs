@@ -363,5 +363,10 @@ namespace BaseDados
             this.button10.Visible = true;
             carregaDados();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Obrigado por utilizar o nosso programa", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
     } 
